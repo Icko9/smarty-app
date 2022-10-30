@@ -1,5 +1,6 @@
 import "./hero.css";
 import React from "react";
+import SmartyUp from "../images/smarty-up.png"
 
 export default function Hero(props) {
   return (
@@ -40,7 +41,7 @@ export default function Hero(props) {
         <div className="bg-gradient-to-l z-0 -mt-[40px] w-[721px] h-[721px] bg-lightblue rounded-[50%]">
           <img
             className="absolute -mt-[115px] object-cover -ml-[110px] w-[979px] h-[996px] "
-            src="https://s3-alpha-sig.figma.com/img/843e/9498/7bc0870eebb6f22f4743147f3d3e8339?Expires=1665360000&Signature=LAcAe3sVo~8D3hifewGh5vSzczwr5jU6krfy~0TK58ngzsITI04D0vtji~n8V3YhdbXMYctk~T6BeD1hxCOtjk9~Q8Sd3ccZ8PJvvrDDzG5PjRwXlM-JCKRMJaEnnawTekdXDiEBcXdux-8aQ6AQyUPzH5qgiTAyMahFcg-DAc1sobqTtjw6V7kt3QuWcPou~jhWZgx4IKa2y67CW9Vf9r9TcF8mCEH0cNs0ihSj5JjAQAZJotSnCTQ3AnH-aP2kAt1kwsxL5GTagCv9PznsIbGkUNywIrD83BTwDu9rHl6hlSqsy5aPZM9sCCjpMBUFu0R1JrMeN11A2FsZnyxByg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            src={SmartyUp}
           ></img>
         </div>
         <div className="bg-blue w-[614px] h-[128px] -mt-[400px]  ml-[1600px] "></div>

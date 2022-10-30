@@ -153,7 +153,7 @@ export default function PersistentDrawerLeft() {
               ></input>
               <label className="text-[30px] pl-[15px]">Description</label>
               <MyEditor
-                value={hero.description}
+                description={description}
                 setDescription={setDescription}
                 config={config}
               ></MyEditor>
